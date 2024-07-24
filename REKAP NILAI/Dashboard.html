@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="https://amikom.ac.id/theme/material/img/amikom_icon_pack/favicon-16x16.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Dashboard</title>
+    <style>
+        .logo {
+            width: 100px;
+        }
+
+        .amikom {
+            width: 300px;
+        }
+
+        .bg-purple {
+            background-color: #a004eb !important;
+        }
+
+        .login-container {
+            height: 100vh;
+        }
+
+        .btn-purple {
+            color: #fff;
+            background-color: #a004eb;
+            border-color: #a004eb;
+        }
+
+        .btn-violet {
+            color: #fff;
+            background-color: #E940FD;
+            border-color: #E940FD;
+        }
+
+        .icon {
+            width: 60px;
+        }
+
+        .logo-amikom {
+            max-height: 50px;
+            height: auto;
+            width: auto;
+        }
+
+        .bg-violet {
+            background-color: #E940FD !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-purple justify-content-between p-2">
+        <div class="d-flex align-items-center">
+            <div>
+                <img class="icon" src="amikom.png" alt="">
+            </div>
+            <p class="text-white ms-2 mt-2 fs-5">Rekapitulasi Penilaian Mahasiswa <br>
+                <strong>Universitas Amikom Yogyakarta</strong>
+            </p>
+        </div>
+        <div class="justify-content-between bg-warning p-2 d-flex">
+            <div class="bg-white me-2 p-1 d-flex flex-column justify-content-center align-items-center">
+                <p class="mt-1">
+                    NIK <br>
+                    <strong>Nama Dosen</strong>
+                </p>
+            </div>
+            <div class="bg-white p-1 text-center d-flex flex-column justify-content-center align-items-center">
+                <p class="mt-1">Hari, Tanggal
+                    <a href="Login.html"><button class="btn-danger text-white w-100">Logout</button></a>
+                </p>
+            </div>
+        </div>
+    </nav>
+    <nav class="nav bg-violet">
+        <div class="offcanvas offcanvas-start" id="offcanvas">
+            <div class="offcanvas-body">
+                <ul class="list-unstyled">
+                    <li class="mb-2 ms-2"><a href="Dashboard.html" class="text-dark"><i class="fas fa-home"></i>  Dashboard</a></li>
+                    <li class="mb-2 ms-2"><a href="Rekapitulasi Penilaian.html" class="text-dark"><i class="fas fa-keyboard"></i>  Rekapitulasi Penilaian</a></li>
+                </ul>
+            </div>
+          </div>
+        <button class="btn btn-violet" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+    <nav class="bg-purple nav p-2 mt-3 mx-3 align-items-center">
+        <div>
+            <img class="icon" src="deafult.png" alt="">
+        </div>
+        <div class="ms-2 mt-1 text-white fs-5">
+            <p>Dashboard Dosen <br>
+                <strong>Nama Dosen</strong>
+            </p>
+        </div>
+    </nav>
+
+    <div class="nav mt-3 mx-3 border border-dark p-2" style="height: 160px;">
+        <h3>
+            Informasi
+        </h3>
+    </div>
+
+    <div class="nav mt-3 mx-3 border border-dark p-2" style="height: 160px;">
+        <h3>
+            Informasi
+        </h3>
+    </div>
+</body>
+
+</html>
